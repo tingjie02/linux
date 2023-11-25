@@ -1,0 +1,11 @@
+# Debian Main Repositories
+deb https://deb.debian.org/debian buster main contrib non-free
+deb https://deb.debian.org/debian buster-updates main contrib non-free non-free-firmware
+
+# Debian Security Updates
+deb https://deb.debian.org/debian-security buster/updates main contrib non-free non-free-firmware
+
+# Debian Backports Repository
+# Useful for systems that require more recent software not yet available in the main release.
+# Uncomment the following line to enable backports, providing access to newer versions of packages.
+# deb https://deb.debian.org/debian buster-backports main contrib non-free non-free-firmware
